@@ -3,7 +3,7 @@ apply plugin: 'com.novoda.bintray-release'
 
 publish {
     userOrg = 'lucksiege'// 用户名
-    publishVersion = '1.2.0'// 版本号
+    publishVersion = '1.2.1'// 版本号
     website = 'https://github.com/LuckSiege/BuildGradleDemo'// github地址
     groupId = 'com.laoyuegou.component'// 包名
     artifactId = 'build-gradle' // 项目名
