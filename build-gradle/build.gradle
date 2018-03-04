@@ -7,7 +7,7 @@ publish {
     website = 'https://github.com/LuckSiege/BuildGradleDemo'// github地址
     groupId = 'com.laoyuegou.component'// 包名
     artifactId = 'build-gradle' // 项目名
-    repoName = 'BuildGradle' // 第一步填的Name
+    repoName = 'combuild' // 第一步填的Name
 }
 
 
