@@ -3,7 +3,7 @@ apply plugin: 'com.novoda.bintray-release'
 
 publish {
     userOrg = 'lucksiege'// 用户名
-    publishVersion = '1.2.2'// 版本号
+    publishVersion = '1.2.3'// 版本号
     website = 'https://github.com/LuckSiege/BuildGradleDemo'// github地址
     groupId = 'com.laoyuegou.component'// 包名
     artifactId = 'build-gradle' // 项目名
@@ -11,12 +11,12 @@ publish {
 }
 
 
-dependencies {
-    compile 'com.android.tools.build:gradle:3.0.1'
-    compile group: 'org.javassist', name: 'javassist', version: '3.20.0-GA'
-    //gradle sdk
-    compile gradleApi()
-    //groovy sdk
-    compile localGroovy()
-}
+//dependencies {
+//    compile 'com.android.tools.build:gradle:3.0.1'
+//    compile group: 'org.javassist', name: 'javassist', version: '3.20.0-GA'
+//    //gradle sdk
+//    compile gradleApi()
+//    //groovy sdk
+//    compile localGroovy()
+//}
 
